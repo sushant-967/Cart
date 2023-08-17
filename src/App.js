@@ -98,3 +98,26 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+
+// import React,{useState} from 'react';
+
+// function App(){
+
+//   const [email,setEmail]=useState('');
+//   function handleChange(e){
+//     setEmail(e.target.value)
+//   }
+
+
+//   return(
+//     <div className='App' style={{padding:10}}>
+//        <input value={email} onChange={handleChange} />
+//      <p>Email: {email}</p>
+//     </div>
+   
+//   );
+// }
+
+// export default App;
